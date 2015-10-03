@@ -106,3 +106,5 @@ STATIC_URL = '/static/'
 
 # added this according to tutorial
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+
+LOGIN_REDIRECT_URL = '/'
